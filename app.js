@@ -10,9 +10,9 @@ app.get("/", (req, res) => {
   res.send(
     `Hello World from IBM Cloud Essentials!<br/><br/>
     Environment Variables:
-    <br/>MY_VAR_1=${process.env.MY_VAR_1}<br/>
-    <br/>MY_VAR_2=${process.env.MY_VAR_2}<br/>
-    <br/>MY_VAR_3=${process.env.MY_VAR_3}<br/>`
+    <br/>integrationID=${process.env.integrationID}<br/>
+    <br/>region=${process.env.region}<br/>
+    <br/>serviceInstanceID=${process.env.serviceInstanceID}<br/>`
   );
 });
 
